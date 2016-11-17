@@ -213,3 +213,79 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 980px){
+	#logo{
+		margin-left: 20px;
+	}
+	.work {
+		float: none;
+	}
+	
+	.auth-image {
+		width: inherit;
+	}
+	.main-section{
+		margin-left: 20px;
+	}
+	nav {
+		margin-right: 20px;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+
+	.sidebar {
+		float: left;
+		max-width: 100%;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	.work{
+		float: left;
+	}
+	.auth-image {
+		width: 200px;
+	}
+	.main-section{
+		max-width: 100%;
+		margin-right: 20px;
+	}
+	
+}
+
+@media screen and (max-width: 640px){
+	#masthead {
+		position: static;
+	}	
+	nav {
+		float:none;
+		text-align: center;
+	}
+	#main-container {
+		padding-top: 0;
+	}
+	#logo {
+		float: none;
+		display: block;
+		width: 100%;
+		margin-left: 0;
+	}
+	.work{
+		width:100%;
+	}
+	nav a {
+		margin-left: 75px;
+		padding-left: 50px;
+	}
+	.auth-image{
+		width: inherit;
+	}
+}
+
+
+
+
+
+
